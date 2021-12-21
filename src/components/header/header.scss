@@ -1,0 +1,34 @@
+@import "../../assets/styles/variables";
+
+.navbar {
+  padding-top: 60px !important;
+  align-items: center;
+  .mega-menu {
+    ul {
+      display: flex;
+      align-items: center;
+      li {
+        margin: 0 40px;
+        a {
+          display: block;
+          transition: all 80ms ease-in-out;
+          &:hover {
+            color: $text-color;
+            opacity: 0.9;
+            transform: scale(1.06);
+          }
+        }
+      }
+    }
+  }
+
+  .right-menu {
+    img {
+      display: inline-block;
+      cursor: pointer;
+    }
+    img:nth-child(1) {
+      margin: 0 40px;
+    }
+  }
+}
